@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-size: 10px;
+}
+
+.material-icons {
+    font-size: 3rem !important;
+    color: #ff6e7f;
+    transition: ease 250ms;
+    cursor: pointer;
+}
+
+.material-icons:hover {
+    color: #3fbcff;
+}
+
+body {
+    display: grid;
+    font-size: 2rem;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.nav {
+    background-color: #ededed;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding: 2rem 5rem;
+}
+
+.nav-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 2rem;
+}
+
+.nav-top-left {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+input {
+    width: 80%;
+    height: 3rem;
+    background-color: transparent;
+    border: #ff6e7f 0.5rem solid;
+    border-radius: 999999px;
+    padding-left: 3rem;
+    font-size: 2rem;
+    transition: ease 250ms;
+}
+
+input:focus {
+    outline: none;
+    border: #3fbcff 0.5rem solid;
+}
+
+.nav-top-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-top .img-profile {
+    width: 4.5rem;
+    border-radius: 50%;
+}
+
+.nav-top .username {
+    color: #ff6e7f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-top .username:hover {
+    transition: ease 250ms;
+    color: #3fbcff;
+}
+
+img {
+    width: 5rem;
+}
+
+.nav-bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.nav-bottom-left {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-bottom-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 3rem;
+}
