@@ -21,6 +21,7 @@
 
 body {
     display: grid;
+    height: 100vh;
     font-size: 2rem;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
@@ -31,6 +32,9 @@ body {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .nav-top {
@@ -83,7 +87,6 @@ input:focus {
     transition: ease 250ms;
     color: #3fbcff;
 }
-
 
 .nav-bottom {
     display: grid;
