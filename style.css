@@ -51,7 +51,7 @@ input {
     background-color: transparent;
     border: #ff6e7f 0.5rem solid;
     border-radius: 999999px;
-    padding-left: 3rem;
+    padding: 0.5rem 3rem;
     font-size: 2rem;
     transition: ease 250ms;
 }
@@ -84,9 +84,6 @@ input:focus {
     color: #3fbcff;
 }
 
-img {
-    width: 5rem;
-}
 
 .nav-bottom {
     display: grid;
@@ -99,9 +96,44 @@ img {
     gap: 3rem;
 }
 
+.nav-bottom-left .img-profile {
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.nav-bottom-left .welcome-text {
+    font-weight: 500; 
+    color: #3fbcff;
+}
+
+.nav-bottom-left .username {
+    color: #ff6e7f;
+}
+
 .nav-bottom-right {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 3rem;
+}
+
+.nav-options {
+    text-decoration: none;
+    background-color: #ff6e7f;
+    text-align: center;
+    line-height: 3.5rem;
+    width: 9rem;
+    height: 3.5rem;
+    color: #ededed;
+    font-weight: bolder;
+    border-radius: 9999999px;
+    transition: ease 250ms;
+}
+
+.nav-options:hover {
+    background-color: #3fbcff;
+}
+
+.nav-options:active {
+    color: #ff6e7f;
 }
