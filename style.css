@@ -140,3 +140,15 @@ input:focus {
 .nav-options:active {
     color: #ff6e7f;
 }
+
+.sidebar {
+    background-color: #3fbcff;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .material-icons, .sidebar p {
+    color: #ededed;
+}
