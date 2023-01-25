@@ -147,8 +147,46 @@ input:focus {
     grid-row: 1 / 3;
     display: flex;
     flex-direction: column;
+    gap: 5rem;
+    padding: 2.5rem 3rem;
 }
 
-.sidebar .material-icons, .sidebar p {
+.sidebar .material-icons, .sidebar p, .sidebar h3 {
     color: #ededed;
+}
+
+.sidebar-top {
+    font-size: 3rem;
+}
+
+.sidebar-top h3 {
+    display: flex;
+    gap: 2rem;
+}
+
+.sidebar-top .material-icons {
+    font-size: 4rem !important;
+}
+
+.sidebar-middle .material-icons, .sidebar-bottom .material-icons {
+    font-size: 3rem !important;
+}
+
+.sidebar-middle p, .sidebar-bottom p {
+    display: flex;
+    font-weight: bold;
+    gap: 2rem;
+    cursor: pointer;
+    line-height: 150%;
+}
+
+p:hover .material-icons, p:hover {
+    color: #ff6e7f;
+    transition: ease 250ms;
+}
+
+.sidebar-middle, .sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
